@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body>
+  <div id="header-container"></div>
+  <form id="contact-form" onsubmit="enviarCorreo(event)">
+    <label>Nombre:</label><br>
+    <input type="text" id="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" id="email" required><br><br>
+
+    <label>Mensaje:</label><br>
+    <textarea id="message" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <!-- Scripts -->
+  <script>
+      (function(){
+        emailjs.init("GGgW7YvbJbWLGZql5"); 
+      })();
+    
+      function enviarCorreo(e) {
+        e.preventDefault();
+    
+        const params = {
+          name:  document.getElementById("name").value,   
+          email: document.getElementById("email").value,  
+          message: document.getElementById("message").value,
+          reply_to: document.getElementById("email").value
+        };
+    
+        emailjs.send("service_kqu4jfl", "template_s0t71mq", params)
+          .then(() => {
+            alert("✅ Correo enviado correctamente");
+            document.getElementById("contact-form").reset();
+          })
+          .catch(err => alert("❌ Error al enviar: " + JSON.stringify(err)));
+      }
+    </script>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script>
+          fetch('../header.html')
+              .then(response => response.text())
+              .then(data => {
+              document.getElementById('header-container').innerHTML = data;
+              });
+    </script>
+</body>
+</html>
