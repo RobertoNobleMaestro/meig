@@ -4,27 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de contacto</title>
-    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+      /* Scoped overrides so text is visible on light background */
+      #main.wrapper.style1, 
+      #main.wrapper.style1 .major, 
+      #main.wrapper.style1 .major h2, 
+      #main.wrapper.style1 label { color: #333 !important; }
+
+      #main.wrapper.style1 .box { background: #fff; }
+
+      #main.wrapper.style1 input[type="text"],
+      #main.wrapper.style1 input[type="email"],
+      #main.wrapper.style1 textarea {
+        color: #333;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.2);
+      }
+
+      #main.wrapper.style1 ::placeholder { color: #888; opacity: 1; }
+    </style>
 </head>
-<body>
-  <div id="header-container"></div>
-  <form id="contact-form" onsubmit="enviarCorreo(event)">
-    <label>Nombre:</label><br>
-    <input type="text" id="name" required><br><br>
+<body class="is-preload landing">
+  <div id="page-wrapper">  
+    <div id="header-container"></div>
+  <section id="main" class="wrapper style1" style="background:#f3f3f3;">
+    <div class="container">
+      <header class="major">
+        <h2>Formulario de contacto</h2>
+      </header>
+      <section class="box">
+        <form id="contact-form" onsubmit="enviarCorreo(event)">
+          <div class="row gtr-uniform gtr-50">
+            <div class="col-6 col-12-xsmall">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" id="name" placeholder="Tu nombre" required />
+            </div>
+            <div class="col-6 col-12-xsmall">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="tucorreo@dominio.com" required />
+            </div>
+            <div class="col-12">
+              <label for="message">Mensaje</label>
+              <textarea name="message" id="message" placeholder="Escribe tu mensaje" rows="6" required></textarea>
+            </div>
+            <div class="col-12">
+              <ul class="actions">
+                <li><button type="submit" class="button primary">Enviar</button></li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+  </section>
 
-    <label>Email:</label><br>
-    <input type="email" id="email" required><br><br>
+  <!-- Footer -->
+  <footer id="footer">
+    <ul class="icons">
+      <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+      <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+      <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+      <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+      <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    </ul>
+  </footer>
+  </div>
 
-    <label>Mensaje:</label><br>
-    <textarea id="message" required></textarea><br><br>
-
-    <button type="submit">Enviar</button>
-  </form>
   <!-- Scripts -->
   <script>
       (function(){
@@ -58,7 +112,7 @@
       <script src="assets/js/util.js"></script>
       <script src="assets/js/main.js"></script>
       <script>
-          fetch('../header.html')
+          fetch('header.html')
               .then(response => response.text())
               .then(data => {
               document.getElementById('header-container').innerHTML = data;
