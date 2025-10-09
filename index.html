@@ -6,13 +6,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Alison portfolio template">
-        <meta name="author" content="ThemeEaster">
        
-        <title>Alison | Show Your Work</title>
+        <title>Meig</title>
         
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-		
+		<!-- Main CSS -->
+        <link rel="stylesheet" href="css/main.css">		
 		<!-- Font Awesome CSS -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <!-- Themify Icons CSS -->
@@ -33,10 +32,10 @@
         <link rel="stylesheet" href="css/simpletextrotator.css">
 		<!-- OWL-Carousel CSS -->
         <link rel="stylesheet" href="css/owl.carousel.css">
-		<!-- Main CSS -->
-        <link rel="stylesheet" href="css/main.css">
+
 		<!-- Responsive CSS -->
         <link rel="stylesheet" href="css/responsive.css">
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -52,7 +51,7 @@
         <header id="header" class="header-section">
             <div class="container">
                 <nav class="navbar">
-                    <a href="#" class="navbar-brand"><img src="img/logo.png" alt="Alison"></a>
+                    <a href="#" class="navbar-brand"><img src="img/logo.png" alt="meig"></a>
                     <div class="d-flex menu-wrap">
                        <div id="navmenu" class="mainmenu">
                            <ul class="nav">
@@ -71,9 +70,9 @@
         <section id="home" class="section hero-section d-flex align-items-center">
             <div class="container">
                 <div class="hero-content text-center">
-                    <h5>WEB DEVELOPER & UX DESIGNER</h5>
-                    <h1><span class="rotate">Creativity, Designing, Developing</span></h1>
-                    <p>I’m a Creative Designer and I make things work.<br> Turning your dreams into reality.</p>
+                    <h5>Bienvenido a MEIG S.L</h5>
+                    <h1><span class="rotate">Atención especializada, Asesoramiento para optimizar Recursos, Soporte en Mantenimiento Industria</span></h1>
+                    <p>Desde el 2000, en MEIG SL, nos especializamos en la venta de componentes de automatización industrial para sectores como automoción, química, farmacéutica y alimentación.</p>
                     <ul class="social-link">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -102,12 +101,27 @@
                         </div>
                     </div>
                     <div class="col-md-6 d-none d-md-block">
-                        <img src="img/about-background.jpg" alt="image">
+                        <img src="img/maquina_brazo.png" alt="image">
                     </div>
                 </div>
             </div>
         </section><!-- about-section -->
-        
+        <section id="about" class="about-section bg-dark">
+            <div class="container-fluid">
+                <div class="row about-wrap">
+                    <div class="col-md-12">
+                        <div class="about-content pdl-80">
+                            <div class="section-heading mb-20">
+                               <h2>About Us</h2>
+                            </div>
+                            <p>I’m a Graphic Designer and I make things work.without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+                            <p> Completely synergize resource taxing relationships premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.</p>
+                            <a href="#" class="default-btn">See Our Works</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- about-section -->
         <section id="services" class="service-section padding">
             <div class="container-fluid">
                 <div class="row service-area d-flex align-items-center">
@@ -276,7 +290,7 @@
                             <h2>let's work together projects <br> just send me email here</h2>
                         </div>
                         <div class="contact-form">
-                            <form action="contact.php" method="post" id="ajax_form" class="form-horizontal">
+                            <form onsubmit="enviarCorreo(event)" id="contact-form" class="form-horizontal">
                                 <div class="form-group colum-row row">
                                     <div class="col-sm-6">
                                         <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
@@ -336,6 +350,7 @@
         <script src="js/contact.js"></script>
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
-
+        <!-- Main JS -->
+         <script src="js/form.js"></script>
     </body>
 </html>

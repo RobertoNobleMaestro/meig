@@ -34,11 +34,11 @@
 	margin: 0;
 }
 body{
-    background-color: #050505;
+    background-color: #ECF0F1;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 23px;
-    color: #777;
+    color: #7F8C8D;
     font-weight: 400;
     position: relative;
     overflow-x: hidden;
@@ -46,19 +46,19 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: 'Oswald', sans-serif;
     -webkit-font-smoothing:antialiased;
-	color: #333;
+	color: #34495E;
 }
 h1{
     font-size: 40px;
     font-weight: 800;
     line-height: 1.2;
     margin: 0 0 10px;
-    color: #fff;
+    color: #34495E;
     letter-spacing: -0.05em;
 }
 h2{
     font-size: 32px;
-    color: #fff;
+    color: #34495E;
     margin: 0 0 10px;
     font-weight: 600;
     line-height: 1.2;
@@ -69,7 +69,7 @@ h3,h4{
     margin: 0 0 10px;
     font-weight: 600;
     line-height: 1.7;
-    color: #fff;
+    color: #34495E;
     letter-spacing: -0.01em;
 }
 h3{
@@ -140,7 +140,7 @@ button{
 
 .bg-white{ background-color: #fff; }
 .bg-grey{ background-color: #eef3f9;}
-.bg-dark{ background-color: #050505!important;}
+.bg-dark{ background-color: #2C3E50!important;}
 .bd-top{ border-top: 1px solid #eaeaea;}
 .bd-bottom{ border-bottom: 1px solid #eaeaea;}
 
@@ -167,7 +167,7 @@ button{
 .pd-15{ padding: 15px; }
 .pdl-80{ padding-left: 80px; }
 .text-black{
-    color: #333;
+    color: #34495E;
 }
 .text-white{
     color: #ffffff;
@@ -213,7 +213,7 @@ button{
     z-index: 9999;
     height: 100%;
     width: 100%;
-    background: #111;
+    background: #2C3E50;
     top: 0;left: 0
 }
 
@@ -262,8 +262,8 @@ button{
 .default-btn{
     font-family: "Open Sans",sans-serif;
     letter-spacing: 2px;
-    background-color: #ff4c4c;
-    color: #ddd;
+    background-color: #3498DB;
+    color: #ECF0F1;
     line-height: 45px;
     display: inline-block;
     padding: 0 25px;
@@ -287,7 +287,7 @@ button{
     left: 0;
     bottom: 0;
     right: 0;
-    background: #fff;
+    background: #E67E22;
     -webkit-transform-origin: right center;
        -moz-transform-origin: right center;
         -ms-transform-origin: right center;
@@ -305,7 +305,7 @@ button{
     z-index: -1;
 }
 .default-btn:hover{
-    color: #111;
+    color: #ECF0F1;
 }
 .default-btn:hover:before{
     -webkit-transform-origin: left center;
@@ -342,41 +342,44 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     top: 0;
     padding: 10px 0;
 }
+.navbar-brand img {
+    width: 50%;
+}
 .navbar-fixed-top.header-section{
-    background-color: #111;
+    background-color: #2C3E50;
     box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.05);
     height: 70px;
     border-bottom: 0;
     padding: 0;
 }
 .mainmenu .download-btn{
-    background-color: #ef5560;
-    box-shadow: 0 10px 35px 2px rgba(239, 85, 96, 0.8);
+    background-color: #3498DB;
+    box-shadow: 0 10px 35px 2px rgba(52, 152, 219, 0.8);
     border-radius: 30px;
     display: inline-block;
     padding: 10px 20px;
     text-transform: uppercase;
     font-size: 10px;
-    color: #fff;
+    color: #ECF0F1;
     font-weight: 600;
     line-height: 25px;
     margin: 14px 0;
 }
 .navbar-fixed-top .mainmenu .download-btn{
-    background-color: #23262e;
-    color: #fff;
+    background-color: #16A085;
+    color: #ECF0F1;
 }
 .mainmenu .download-btn:hover{
     border-radius: 0;
     box-shadow: none;
 }
 .navbar-fixed-top ul.nav > li > a{
-    color: #ddd;
+    color: #7F8C8D;
 }
 .navbar-fixed-top ul.nav > li > a:hover,
 .navbar-fixed-top ul.nav > li > a:focus,
 .navbar-fixed-top ul.nav > li.active > a{
-    color: #fff;
+    color: #E67E22;
 }
 .logo-light,
 .navbar-fixed-top .logo-light,
@@ -412,11 +415,11 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     border-radius: 1px;
 }
 .navbar-header .nav-btn .icon-bar{
-    background-color: #fff;
+    background-color: #34495E;
     width: 18px;
 }
 .navbar-fixed-top .navbar-header .nav-btn .icon-bar{
-    background-color: #777;
+    background-color: #7F8C8D;
 }
 .navbar-header .nav-btn:hover,
 .navbar-header .nav-btn:focus{
@@ -431,7 +434,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 ul.nav{}
 ul.nav > li{}
 ul.nav > li > a{
-    color: rgba(255, 255, 255, 0.9);
+    color: #7F8C8D;
     font-family: 'Open Sans', sans-serif;
     display: inline-block;
     vertical-align: middle;
@@ -447,7 +450,7 @@ ul.nav > li > a:hover,
 ul.nav > li > a:focus,
 ul.nav > li > a.active{
     background: none;
-    color: #fff;
+    color: #E67E22;
     opacity: 1;
 }
 .menu-btn{
@@ -510,7 +513,8 @@ ul.nav > li > a.active{
    Hero Section
    ========================================================================== */
 .hero-section{
-    background-image: url(../img/hero-background.jpg);
+    /* background-image: url(../img/hero-background.jpg); */
+    background-color: #2C3E50;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -519,15 +523,15 @@ ul.nav > li > a.active{
     position: relative;
 }
 .hero-content h1{
-    font-size: 80px;
+    font-size: 60px;
     text-transform: uppercase;
 }
 .hero-content h5{
-    color: #ddd;
+    color: #7F8C8D;
     text-transform: uppercase;
 }
 .hero-content p{
-    color: #ddd;
+    color: #7F8C8D;
     margin-bottom: 50px;
 }
 .social-link{}
@@ -537,11 +541,11 @@ ul.nav > li > a.active{
 }
 .social-link li a{
     display: inline-block;
-    color: #bbb;
+    color: #7F8C8D;
     font-size: 18px;
 }
 .social-link li a:hover{
-    color: #fff;
+    color: #E67E22;
 }
 .down-arrow a {
     position: absolute;
@@ -552,7 +556,7 @@ ul.nav > li > a.active{
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 600;
-    color: #ddd;
+    color: #7F8C8D;
     writing-mode: vertical-rl;
     text-align: center;
     line-height: 40px;
@@ -600,7 +604,7 @@ ul.nav > li > a.active{
     margin-top: 20px;
 }
 .about-content p{
-    color: #bbb;
+    color: #7F8C8D;
 }
 /* ==========================================================================
    Service Section
@@ -614,24 +618,24 @@ ul.nav > li > a.active{
     height: 100%;
 }
 .service-section .section-heading p{
-    color: #ddd;
+    color: #7F8C8D;
 }
 .service-wrap{
     margin-top: -15px;
     margin-bottom: -15px;
 }
 .service-content{
-    background-color: rgba(255,255,255,0.03);
+    background-color: rgba(52, 152, 219, 0.1);
     padding: 30px 20px;
     transition: all 0.2s ease-in-out;
 }
 .service-content:hover{
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(52, 152, 219, 0.2);
     transition: all 0.2s ease-in-out;
 }
 .service-content i{
     font-size: 40px;
-    color: #ff4c4c;
+    color: #16A085;
     margin-bottom: 15px;
 }
 .service-content h3{
@@ -641,7 +645,7 @@ ul.nav > li > a.active{
     margin-bottom: 5px;
 }
 .service-content p{
-    color: #bbb;
+    color: #7F8C8D;
     font-size: 13px;
 }
 
@@ -652,7 +656,7 @@ ul.nav > li > a.active{
     padding-bottom: 0;
 }
 .portfolio-section .section-heading p{
-    color: #ddd;
+    color: #7F8C8D;
 }
 .portfolio-items .col-lg-4{
     padding: 0;
@@ -680,7 +684,7 @@ ul.nav > li > a.active{
     padding: 15px;
 }
 .portfolio-box .hover div{
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(52, 152, 219, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -720,11 +724,11 @@ ul.nav > li > a.active{
 /*Contact Form*/
 .contact-form .form-control{
     border: none;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #7F8C8D;
     border-radius: 0;
     height: 45px;
     background-color: transparent;
-    color: #fff;
+    color: #34495E;
 }
 .form-control:hover,
 .form-control:focus{
@@ -757,9 +761,9 @@ ul.nav > li > a.active{
    Footer Section
    ========================================================================== */
 .footer-section{
-    background-color: #111;
+    background-color: #2C3E50;
     display: block;
-    color: #fff;
+    color: #ECF0F1;
     text-align: center;
     padding: 30px 0;
 }
@@ -773,7 +777,7 @@ ul.nav > li > a.active{
    Scroll To Top
    ========================================================================== */
 #scroll-to-top{
-    background-color: #fff;
+    background-color: #3498DB;
     display: none;
     width: 45px;
     height: 45px;
@@ -781,13 +785,13 @@ ul.nav > li > a.active{
     font-size: 14px;
     border-radius: 50%;
     line-height: 45px;
-    color: #555;
+    color: #ECF0F1;
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 999;
 }
 #scroll-to-top:hover{
-    background-color: #282828;
-    color: #fff;
+    background-color: #E67E22;
+    color: #ECF0F1;
 }
