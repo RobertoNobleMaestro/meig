@@ -1,355 +1,844 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       
-        <title>Meig</title>
-        
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-		<!-- Main CSS -->
-        <link rel="stylesheet" href="css/main.css">		
-		<!-- Font Awesome CSS -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- Themify Icons CSS -->
-        <link rel="stylesheet" href="css/themify-icons.css">
-        <!-- Elegant Font Icons CSS -->
-        <link rel="stylesheet" href="css/elegant-font-icons.css">
-        <!-- Elegant Line Icons CSS -->
-        <link rel="stylesheet" href="css/elegant-line-icons.css">
-		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Venobox CSS -->
-        <link rel="stylesheet" href="css/venobox/venobox.css">
-        <!-- Slicknav CSS -->
-        <link rel="stylesheet" href="css/slicknav.min.css">
-        <!-- animate CSS -->
-        <link rel="stylesheet" href="css/animate.min.css">
-        <!-- simpletextrotator CSS -->
-        <link rel="stylesheet" href="css/simpletextrotator.css">
-		<!-- OWL-Carousel CSS -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-
-		<!-- Responsive CSS -->
-        <link rel="stylesheet" href="css/responsive.css">
-        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body data-spy="scroll" data-target="#navmenu" data-offset="70">
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <div class="site-preloader-wrap">
-            <div class="spinner"></div>
-        </div><!-- Preloader -->
-        
-        <header id="header" class="header-section">
-            <div class="container">
-                <nav class="navbar">
-                    <a href="#" class="navbar-brand"><img src="img/logo.png" alt="meig"></a>
-                    <div class="d-flex menu-wrap">
-                       <div id="navmenu" class="mainmenu">
-                           <ul class="nav">
-                                <li ><a data-scroll class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a></li>
-                                <li><a data-scroll class="nav-link" href="#about">About</a></li>
-                                <li><a data-scroll class="nav-link" href="#services">Services</a></li>
-                                <li><a data-scroll class="nav-link" href="#works">Works</a></li>
-                                <li><a data-scroll class="nav-link" href="#contact">Contact</a></li>
-                            </ul>
-                       </div>
+﻿<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cube | Home | Structura</title>
+    <meta name="description" content="Multipurpose HTML template.">
+    <link rel="stylesheet" href="./HTWF/scripts/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./HTWF/style.css">
+    <link rel="stylesheet" href="./HTWF/css/content-box.css">
+    <link rel="stylesheet" href="./HTWF/css/image-box.css">
+    <link rel="stylesheet" href="./HTWF/css/animations.css">
+    <link rel="stylesheet" href="./HTWF/css/components.css">
+    <link rel="stylesheet" href="./HTWF/scripts/flexslider/flexslider.css">
+    <link rel="stylesheet" href="./HTWF/scripts/magnific-popup.css">
+    <link rel="stylesheet" href="./HTWF/scripts/php/contact-form.css">
+    <link rel="stylesheet" href="./HTWF/scripts/social.stream.css">
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="./skin.css">
+</head>
+<body data-spy="scroll" data-target="#menu" data-offset="250">
+    <div id="preloader"></div>
+    <div class="footer-parallax-container">
+        <header class="fixed-top scroll-change " data-menu-anima="fade-bottom">
+            <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
+                <div class="navbar navbar-main">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <a class="navbar-brand" href="index.html">
+                                <img class="logo-default" src="../images/logo.png" alt="logo" />
+                                <img class="logo-retina" src="../images/logo-retina.png" alt="logo" />
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <div class="nav navbar-nav navbar-right">
+                                <ul id="menu" class="nav navbar-nav one-page-menu">
+                                    <li class="active">
+                                        <a href="#home">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#prices">Prices</a>
+                                    </li>
+                                    <li>
+                                        <a href="#services">Services</a>
+                                    </li> 
+                                    <li>
+                                        <a href="#contacts">Contacts</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </nav>
-            </div>
-		</header> <!-- Header -->
-		
-        <section id="home" class="section hero-section d-flex align-items-center">
-            <div class="container">
-                <div class="hero-content text-center">
-                    <h5>Bienvenido a MEIG S.L</h5>
-                    <h1><span class="rotate">Atención especializada, Asesoramiento para optimizar Recursos, Soporte en Mantenimiento Industria</span></h1>
-                    <p>Desde el 2000, en MEIG SL, nos especializamos en la venta de componentes de automatización industrial para sectores como automoción, química, farmacéutica y alimentación.</p>
-                    <ul class="social-link">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    </ul>
                 </div>
             </div>
-            <div class="down-arrow">
-                <a data-scroll href="#about" class="arrow-animated">Scroll Down <i class="ti-arrow-down"></i></a>
-            </div>
-        </section><!-- hero-section -->
-        
-        <section id="about" class="about-section bg-dark">
-            <div class="container-fluid">
-                <div class="row about-wrap">
+        </header>
+        <div id="home" class="section-bg-image parallax-window background-lines-3 ken-burn-center z-index" data-natural-height="900" data-natural-width="1920" data-parallax="scroll" data-image-src="http://via.placeholder.com/1920x900">
+            <div class="container content">
+                <hr class="space m" />
+                <div class="row">
+                    <div class="col-md-7" data-anima="fade-left" data-timeline="asc" data-time="2000">
+                        <h1 class="text-xl anima text-black">We're wild people searching for the freedom</h1>
+                        <hr class="space m" />
+                        <p class="anima">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                            Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <hr class="space m" />
+                        <a href="#" class="btn-border btn btn-sm anima">Join the community</a>
+                    </div>
                     <div class="col-md-6">
-                        <div class="about-content pdl-80">
-                            <div class="section-heading mb-20">
-                               <h2>About Us</h2>
+
+                    </div>
+                </div>
+                <hr class="space m" />
+            </div>
+        </div>
+        <div class="section-empty background-lines">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="advs-box advs-box-top-icon boxed-inverse">
+                            <i class="im-aquarius icon circle"></i>
+                            <h3>Minds and creation</h3>
+                            <p>
+                                Interdum iusto pulvinar consequuntur augue optio, repellat fuga! Purus expedita fusce baeto asprio.
+                            </p>
+                            <a href="#" class="btn-text">Informations</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="advs-box advs-box-top-icon boxed-inverse">
+                            <i class="im-chemical icon circle"></i>
+                            <h3>Color the business</h3>
+                            <p>
+                                Artiso iusto pulvinar consequuntur augue optio, repellat fuga! Purus expedita fusce baeto arnio.
+                            </p>
+                            <a href="#" class="btn-text">Informations</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="advs-box advs-box-top-icon boxed-inverse">
+                            <i class="im-brain-2 icon circle"></i>
+                            <h3>Abstract arts</h3>
+                            <p>
+                                Eucilide iusto pulvinar consequuntur augue optio, repellat fuga! Purus expedita fusce baeto betto.
+                            </p>
+                            <a href="#" class="btn-text">Informations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about" class="section-empty background-lines">
+            <div class="container content">
+                <div class="row" data-anima="fade-bottom">
+                    <div class="col-md-4">
+                        <h2>Start having passions for the nature</h2>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="text-bold">We create digital assets and we're focused on Web Technologies and Design, based on London, United Kingdom. We are dreamers and hard workers so start now with us.</p>
+                        <hr class="space s" />
+                        <a href="#" class="btn-text">Read more</a>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                            Utenim ad minim veniam quis nostrud exercitation ullamco labo ipiscing aretsu pertollio martio arenco do eiusmod tempor inciriso.
+                        </p>
+                    </div>
+                </div>
+                <hr class="space l" />
+                <div class="row" data-anima="fade-bottom">
+                    <div class="col-md-4">
+                        <div class="list-items">
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>Burning man burst</h3>
+                                        <p>Aeniam quis nostrud exercitatio</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
                             </div>
-                            <p>I’m a Graphic Designer and I make things work.without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                            <p> Completely synergize resource taxing relationships premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.</p>
-                            <a href="#" class="default-btn">See Our Works</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-none d-md-block">
-                        <img src="img/maquina_brazo.png" alt="image">
-                    </div>
-                </div>
-            </div>
-        </section><!-- about-section -->
-        <section id="about" class="about-section bg-dark">
-            <div class="container-fluid">
-                <div class="row about-wrap">
-                    <div class="col-md-12">
-                        <div class="about-content pdl-80">
-                            <div class="section-heading mb-20">
-                               <h2>About Us</h2>
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>A family of friends</h3>
+                                        <p>Eiusmod tempor incididunte</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
                             </div>
-                            <p>I’m a Graphic Designer and I make things work.without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                            <p> Completely synergize resource taxing relationships premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.</p>
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>The dog and the cat</h3>
+                                        <p>Tadipiscing elitsed do eiusmo</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="list-items">
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>We are dreamers</h3>
+                                        <p>Aeniam quis nostrud exercitatio</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>We create the future</h3>
+                                        <p>Eiusmod tempor incididunte</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>We're hard workers</h3>
+                                        <p>Tadipiscing elitsed do eiusmo</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="list-items">
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>State of art services</h3>
+                                        <p>Text of secondary area</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>Lovely support for everyone</h3>
+                                        <p>Tadolore magna aliqua</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h3>Latest technologies</h3>
+                                        <p>Raminim veniam quis</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section><!-- about-section -->
-        <section id="services" class="service-section padding">
-            <div class="container-fluid">
-                <div class="row service-area d-flex align-items-center">
-                    <div class="col-lg-4 col-md-4 xs-padding">
-                        <div class="section-heading pdl-80">
-                            <h2 class="mb-20">Services</h2>
-                            <p class="mb-20">I’m a Creative Designer and I make things work.<br> Turning your dreams into reality.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-8 xs-padding">
-                        <div class="row service-wrap">
-                            <div class="col-lg-4 col-sm-6 pd-15">
-                                <div class="service-content">
-                                    <i class="icon-layers"></i>
-                                    <h3>Interface Design</h3>
-                                    <p>Lorem Ipsum is simply more dummy the industry.</p>
-                                </div>
-                            </div><!-- Service-1 -->
-                            <div class="col-lg-4 col-sm-6 pd-15">
-                                <div class="service-content">
-                                    <i class="icon-tools"></i>
-                                    <h3>Themes Development</h3>
-                                    <p>Lorem Ipsum is simply more dummy the industry.</p>
-                                </div>
-                            </div><!-- Service-2 -->
-                            <div class="col-lg-4 col-sm-6 pd-15">
-                                <div class="service-content">
-                                    <i class="icon-bargraph"></i>
-                                    <h3>Content Marketing</h3>
-                                    <p>Lorem Ipsum is simply more dummy the industry.</p>
-                                </div>
-                            </div><!-- Service-3 -->
-                            <div class="col-lg-4 col-sm-6 pd-15">
-                                <div class="service-content">
-                                    <i class="icon-phone"></i>
-                                    <h3>Mobile Apps</h3>
-                                    <p>Lorem Ipsum is simply more dummy the industry.</p>
-                                </div>
-                            </div><!-- Service-4 -->
-                            <div class="col-lg-4 col-sm-6 pd-15">
-                                <div class="service-content">
-                                    <i class="icon-bike"></i>
-                                    <h3>Responsive Design</h3>
-                                    <p>Lorem Ipsum is simply more dummy the industry.</p>
-                                </div>
-                            </div><!-- Service-5 -->
-                            <div class="col-lg-4 col-sm-6 pd-15">
-                                <div class="service-content">
-                                    <i class="icon-genius"></i>
-                                    <h3>Free Updates</h3>
-                                    <p>Lorem Ipsum is simply more dummy the industry.</p>
-                                </div>
-                            </div><!-- Service-6 -->
-                        </div>
+        </div>
+        <div class="section-bg-image parallax-window background-lines-3" data-natural-height="900" data-natural-width="1920" data-parallax="scroll" data-image-src="http://via.placeholder.com/1920x900">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4 boxed-inverse" data-anima="fade-right">
+                        <h2>Richard Brenson</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                            Utenim ad minim veniam quis nostrud exercitation ullamco laboris.
+                        </p>
+                        <img src="../images/sign-3.png" alt="Alternate Text" />
                     </div>
                 </div>
             </div>
-        </section><!-- service-section -->
-            
-        <section id="works" class="portfolio-section bg-dark">
-            <div class="container-fluid">
-                <div class="row portfolio-wrap d-flex align-items-center">
-                    <div class="col-md-4 xs-padding">
-                        <div class="section-heading pdl-80">
-                            <h2 class="mb-20">Portfolio</h2>
-                            <p class="mb-20">I’m a Creative Designer and I make things work.<br> Turning your dreams into reality.</p>
-                            <a href="#" class="default-btn">Our All Works</a>
-                        </div>
+        </div>
+        <div class="section-empty">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Our testimonials</h2>
+                        <hr class="space s" />
+                        <a href="#" class="btn-text">More testimonials</a>
                     </div>
                     <div class="col-md-8">
-                        <div class="row portfolio-items">
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="portfolio-box">
-                                    <div class="portfolio-thumb">
-                                        <img src="img/prtf-1.jpg" alt="img">
-                                    </div>
-                                    <a href="img/prtf-1.jpg" class="hover img-popup" data-gall="galleryimg">
-                                        <div>
-                                            <img src="img/zoom.png" alt="icon">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div><!-- Portfolio-1 -->
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="portfolio-box">
-                                    <div class="portfolio-thumb">
-                                        <img src="img/prtf-2.jpg" alt="img">
-                                    </div>
-                                    <a href="img/prtf-2.jpg" class="hover img-popup" data-gall="galleryimg">
-                                        <div>
-                                            <img src="img/zoom.png" alt="icon">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div><!-- Portfolio-2 -->
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="portfolio-box">
-                                    <div class="portfolio-thumb">
-                                        <img src="img/prtf-3.gif" alt="img">
-                                    </div>
-                                    <a href="img/prtf-3.gif" class="hover img-popup" data-gall="galleryimg">
-                                        <div>
-                                            <img src="img/zoom.png" alt="icon">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div><!-- Portfolio-3 -->
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="portfolio-box">
-                                    <div class="portfolio-thumb">
-                                        <img src="img/prtf-4.jpg" alt="img">
-                                    </div>
-                                    <a href="img/prtf-4.jpg" class="hover img-popup" data-gall="galleryimg">
-                                        <div>
-                                            <img src="img/zoom.png" alt="icon">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div><!-- Portfolio-4 -->
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="portfolio-box">
-                                    <div class="portfolio-thumb">
-                                        <img src="img/prtf-5.jpg" alt="img">
-                                    </div>
-                                    <a href="img/prtf-5.jpg" class="hover img-popup" data-gall="galleryimg">
-                                        <div>
-                                            <img src="img/zoom.png" alt="icon">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div><!-- Portfolio-5 -->
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="portfolio-box">
-                                    <div class="portfolio-thumb">
-                                        <img src="img/prtf-6.jpg" alt="img">
-                                    </div>
-                                    <a href="img/prtf-6.jpg" class="hover img-popup" data-gall="galleryimg">
-                                        <div>
-                                            <img src="img/zoom.png" alt="icon">
-                                        </div>
-                                    </a>
-                                </div>
-                            </div><!-- Portfolio-6 -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- portfolio-section -->
-        
-        <section class="cta-section padding">
-            <div class="container">
-                <div class="cta-wrap text-center">
-                    <div class="cta-content">
-                        <h2>A Creative studio in Melbourne, <br> passionate about design, art and <br>creativity, since 1950.</h2>
-                        <a href="#" class="default-btn">Contact With Us</a>
-                    </div>
-                </div>
-            </div>
-        </section><!-- cta-section -->
-        
-        <section id="contact" class="contact-section bg-dark">
-            <div class="container-fluid">
-                <div class="row contact-wrap">
-                    <div class="col-lg-6 col-md-8 offset-md-2 offset-lg-0 pdl-80">
-                        <div class="contact-info mb-30">
-                            <h2>let's work together projects <br> just send me email here</h2>
-                        </div>
-                        <div class="contact-form">
-                            <form onsubmit="enviarCorreo(event)" id="contact-form" class="form-horizontal">
-                                <div class="form-group colum-row row">
-                                    <div class="col-sm-6">
-                                        <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
-                                        <textarea id="message" name="message" cols="30" rows="5" class="form-control message" placeholder="Message" required></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
-                                        <button id="submit" class="default-btn submit-button" type="submit">Send Message</button>
-                                    </div>
-                                </div>
-                                <div id="form-messages" class="alert" role="alert"></div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="google-map"></div><!-- /#google-map -->
-        </section><!-- contat-section -->
-		    
-		<footer class="footer-section align-center">
-			<div class="container">
-				<p>&copy; 2019 Alison Powered by TeamXcel</p>
-			</div>
-		</footer><!-- /.footer_section -->
+                        <div class="flexslider carousel outer-navs" data-options="minWidth:200,itemMargin:30,numItems:2,controlNav:false,directionNav:true">
+                            <ul class="slides">
+                                <li>
+                                    <div class="advs-box niche-box-testimonails-cloud">
+                                        <p>
+                                            Lorem ipsum dolor sitamet consectetur adipisicing elito sed doode tempore.
 
-		<a data-scroll href="#header" id="scroll-to-top"><i class="arrow_carrot-up"></i></a>
-	
-		<!-- jQuery Lib -->
-		<script src="js/vendor/jquery-1.12.4.min.js"></script>
-		<!-- Bootstrap JS -->
-		<script src="js/vendor/bootstrap.min.js"></script>
-		<!-- Tether JS -->
-		<script src="js/vendor/tether.min.js"></script>
-		<!-- Slicknav JS -->
-		<script src="js/vendor/jquery.slicknav.min.js"></script>
-		<!-- OWL-Carousel JS -->
-		<script src="js/vendor/owl.carousel.min.js"></script>
-		<!-- Smooth Scroll JS -->
-		<script src="js/vendor/smooth-scroll.min.js"></script>
-		<!-- Venobox JS -->
-		<script src="js/vendor/venobox.min.js"></script>
-		<!-- Text Rotator JS -->
-		<script src="js/vendor/jquery.simple-text-rotator.js"></script>
-		<!-- Wow JS -->
-		<script src="js/vendor/wow.min.js"></script>
-		<!-- Google Map JS -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGm_weV-pxqGWuW567g78KhUd7n0p97RY"></script>
-        <!-- Contact JS -->
-        <script src="js/contact.js"></script>
-		<!-- Main JS -->
-		<script src="js/main.js"></script>
-        <!-- Main JS -->
-         <script src="js/form.js"></script>
-    </body>
+                                        </p>
+                                        <div class="name-box vertical-row">
+                                            <i class="vertical-col fa text-l circle onlycover" style="background-image:url('http://via.placeholder.com/450x450')"></i>
+                                            <h5 class="vertical-col subtitle">Natasha Paun<span class="subtxt">Google</span></h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="advs-box niche-box-testimonails-cloud">
+                                        <p>
+                                            Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmo.
+
+                                        </p>
+                                        <div class="name-box vertical-row">
+                                            <i class="vertical-col fa text-l circle onlycover" style="background-image:url('http://via.placeholder.com/450x450')"></i>
+                                            <h5 class="vertical-col subtitle">Albert De Niro<span class="subtxt">Facebook</span></h5>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="advs-box niche-box-testimonails-cloud">
+                                        <p>
+                                            Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmo.
+
+                                        </p>
+                                        <div class="name-box vertical-row">
+                                            <i class="vertical-col fa text-l circle onlycover" style="background-image:url('http://via.placeholder.com/450x450')"></i>
+                                            <h5 class="vertical-col subtitle">Alissa William<span class="subtxt">Microsoft</span></h5>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio" class="section-empty background-lines-2">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6 text-right text-center-sm">
+                        <h2>Portfolio</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="maso-list maso-layout">
+                    <div class="navbar navbar-inner">
+                        <div class="navbar-toggle"><i class="fa fa-bars"></i><span>Menu</span><i class="fa fa-angle-down"></i></div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav over ms-minimal inner maso-filters">
+                                <li class="current-active active"><a data-filter="maso-item">All</a></li>
+                                <li><a data-filter="cat1">Arts</a></li>
+                                <li><a data-filter="cat2">Urban</a></li>
+                                <li><a data-filter="cat3">Creative</a></li>
+                                <li><a class="maso-order" data-sort="asc"><i class="fa fa-arrow-down"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="maso-box row">
+                        <div data-sort="1" class="maso-item col-md-4 cat1 cat2">
+                            <div class="img-box adv-img adv-img-full-content shadow" data-anima="fade-in" data-trigger="hover" data-anima-out="hide">
+                                <div class="img-box anima-scale-up anima">
+                                    <img src="http://via.placeholder.com/800x600" alt="" />
+                                </div>
+                                <a href="#" class="caption-bg img-box anima">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>The retrò show</h2>
+                                            <p class="sub">Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div data-sort="1" class="maso-item col-md-4 cat3 cat4">
+                            <div class="img-box adv-img adv-img-full-content shadow" data-anima="fade-in" data-trigger="hover" data-anima-out="hide">
+                                <div class="img-box anima-scale-up anima">
+                                    <img src="http://via.placeholder.com/800x600" alt="" />
+                                </div>
+                                <a href="#" class="caption-bg img-box anima">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>Superior networking</h2>
+                                            <p class="sub">Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div data-sort="1" class="maso-item col-md-4 cat1 cat4">
+                            <div class="img-box adv-img adv-img-full-content shadow" data-anima="fade-in" data-trigger="hover" data-anima-out="hide">
+                                <div class="img-box anima-scale-up anima">
+                                    <img src="http://via.placeholder.com/800x600" alt="" />
+                                </div>
+                                <a href="#" class="caption-bg img-box anima">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>People of the dark</h2>
+                                            <p class="sub">Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div data-sort="1" class="maso-item col-md-4 cat3 cat4">
+                            <div class="img-box adv-img adv-img-full-content shadow" data-anima="fade-in" data-trigger="hover" data-anima-out="hide">
+                                <div class="img-box anima-scale-up anima">
+                                    <img src="http://via.placeholder.com/800x600" alt="" />
+                                </div>
+                                <a href="#" class="caption-bg img-box anima">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>Citizens and people</h2>
+                                            <p class="sub">Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div data-sort="1" class="maso-item col-md-4 cat1 cat2">
+                            <div class="img-box adv-img adv-img-full-content shadow" data-anima="fade-in" data-trigger="hover" data-anima-out="hide">
+                                <div class="img-box anima-scale-up anima">
+                                    <img src="http://via.placeholder.com/800x600" alt="" />
+                                </div>
+                                <a href="#" class="caption-bg img-box anima">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>Walking city tour</h2>
+                                            <p class="sub">Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div data-sort="1" class="maso-item col-md-4 cat1 cat2">
+                            <div class="img-box adv-img adv-img-full-content shadow" data-anima="fade-in" data-trigger="hover" data-anima-out="hide">
+                                <div class="img-box anima-scale-up anima">
+                                    <img src="http://via.placeholder.com/800x600" alt="" />
+                                </div>
+                                <a href="#" class="caption-bg img-box anima">
+                                    <div class="caption">
+                                        <div class="inner">
+                                            <h2>Secret live concert</h2>
+                                            <p class="sub">Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <hr class="space m" />
+                <a href="#" class="btn btn-sm">View projects</a>
+            </div>
+        </div>
+        <div id="prices" class="section-empty">
+            <div class="container content">
+                <table class="grid-table border-table">
+                    <tbody>
+                        <tr>
+                            <td><h2 class="text-right">Pricings</h2></td>
+                            <td>
+                                <p class="text-left">
+                                    Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr class="space m" />
+                <div class="row" data-anima="fade-bottom" data-timeline="asc">
+                    <div class="col-md-4">
+                        <div class="list-group pricing-table anima">
+                            <div class="list-group-item pricing-price">
+                                99 <span>$</span>
+                            </div>
+                            <div class="list-group-item pricing-name">
+                                <h3>
+                                    Starter plan
+                                </h3>
+                            </div>
+                            <div class="list-group-item">
+                                General contracting
+                            </div>
+                            <div class="list-group-item">
+                                Pre-Minimal services
+                            </div>
+                            <div class="list-group-item">
+                                Minimal consulting
+                            </div>
+                            <div class="list-group-item">
+                                Metal roofing
+                            </div>
+                            <div class="list-group-item">
+                                businesss
+                            </div>
+                            <div class="list-group-item">
+                                Design-build
+                            </div>
+                            <div class="list-group-item">
+                                24/7 support
+                            </div>
+                            <div class="list-group-item">
+                                <a class="btn btn-sm btn-default" href="#"> Order now </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="list-group pricing-table anima">
+                            <div class="list-group-item pricing-price">
+                                199 <span>$</span>
+                            </div>
+                            <div class="list-group-item pricing-name">
+                                <h3>Plus plan</h3>
+                            </div>
+                            <div class="list-group-item">
+                                General contracting
+                            </div>
+                            <div class="list-group-item">
+                                Pre-Minimal services
+                            </div>
+                            <div class="list-group-item">
+                                Minimal consulting
+                            </div>
+                            <div class="list-group-item">
+                                Metal roofing
+                            </div>
+                            <div class="list-group-item">
+                                businesss
+                            </div>
+                            <div class="list-group-item">
+                                Design-build
+                            </div>
+                            <div class="list-group-item">
+                                24/7 support
+                            </div>
+                            <div class="list-group-item">
+                                <a class="btn btn-sm btn-default" href="#"> Order now </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="list-group pricing-table anima">
+                            <div class="list-group-item pricing-price">
+                                1999 <span>$</span>
+                            </div>
+                            <div class="list-group-item pricing-name">
+                                <h3>Exclusive plan</h3>
+                            </div>
+                            <div class="list-group-item">
+                                Premium contracting
+                            </div>
+                            <div class="list-group-item">
+                                All Minimal services
+                            </div>
+                            <div class="list-group-item">
+                                Minimal consulting
+                            </div>
+                            <div class="list-group-item">
+                                Metal roofing
+                            </div>
+                            <div class="list-group-item">
+                                businesss
+                            </div>
+                            <div class="list-group-item">
+                                Design-build
+                            </div>
+                            <div class="list-group-item">
+                                24/7 support
+                            </div>
+                            <div class="list-group-item">
+                                <a class="btn btn-sm btn-default" href="#"> Order now </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-bg-image parallax-window background-lines-3" data-natural-height="900" data-natural-width="1920" data-parallax="scroll" data-image-src="http://via.placeholder.com/1920x900">
+            <div class="container content">
+                <div class="row">
+                    <div class="col-md-4 boxed-inverse" data-anima="fade-left">
+                        <h2>Wild lifestyle</h2>
+                        <p>
+                            It is better to lead from behind and to put others in front,
+                            especially when you celebrate victory when nice things occur.
+                            You take the front line when there is danger. Then people will appreciate your leadership.
+                        </p>
+                        <hr class="space s" />
+                        <a href="#" class="btn-text">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services" class="section-empty background-lines">
+            <div class="container content">
+                <div class="title-base">
+                    <hr />
+                    <h2>Services</h2>
+                    <p>Auis aute irure dolo irure dolor in reprehenderit in voluptate loremisi ut aliquip ex ea commodo caute irure dolor in reprehenderio.</p>
+                </div>
+                <hr class="space m hidden-xs" />
+                <div class="row">
+                    <div class="col-md-2" data-anima="fade-bottom">
+                        <hr class="space l hidden-xs" />
+                        <a class="img-box shadow row-8" href="#">
+                            <img src="http://via.placeholder.com/800x600" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2" data-anima="fade-bottom">
+                        <a class="img-box shadow row-17" href="#">
+                            <img src="http://via.placeholder.com/800x1300" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-6 col-sm-12 background-dots background-white" data-anima="fade-bottom">
+                        <div class="list-items">
+                            <div class="list-item list-item-img">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <i class="onlycover circle icon" style="background-image:url(http://via.placeholder.com/500x500)"></i>
+                                        <h3>Steamed king crab</h3>
+                                        <p>
+                                            Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse pertollo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span>9$</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item list-item-img">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <i class="onlycover circle icon" style="background-image:url(http://via.placeholder.com/500x500)"></i>
+                                        <h3>Roast partridge</h3>
+                                        <p>
+                                            Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span>9$</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item list-item-img">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <i class="onlycover circle icon" style="background-image:url(http://via.placeholder.com/500x500)"></i>
+                                        <h3>Salad of shaved fenne</h3>
+                                        <p>
+                                            Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span>10$</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item list-item-img">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <i class="onlycover circle icon" style="background-image:url(http://via.placeholder.com/800x600)"></i>
+                                        <h3>Slow roasted white</h3>
+                                        <p>
+                                            Duis aute irure dolo irure dolor in reprehenderit in voluptate esse articolo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span>9.5$</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="space" />
+                <div class="row">
+                    <div class="col-md-6" data-anima="fade-bottom">
+                        <div class="list-items">
+                            <div class="list-item list-item-img">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <i class="onlycover circle icon" style="background-image:url(http://via.placeholder.com/500x500)"></i>
+                                        <h3>Steamed king crab</h3>
+                                        <p>
+                                            Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span>9$</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item list-item-img">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <i class="onlycover circle icon" style="background-image:url(http://via.placeholder.com/500x500)"></i>
+                                        <h3>Roast partridge</h3>
+                                        <p>
+                                            Duis aute irure dolo irure dolor in reprehenderit in voluptate velito partlo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span>9$</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item list-item-img">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <i class="onlycover circle icon" style="background-image:url(http://via.placeholder.com/500x500)"></i>
+                                        <h3>Salad of shaved fenne</h3>
+                                        <p>
+                                            Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span>10$</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-item list-item-img">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <i class="onlycover circle icon" style="background-image:url(http://via.placeholder.com/500x500)"></i>
+                                        <h3>Slow roasted white</h3>
+                                        <p>
+                                            Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse arto.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span>9.5$</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2" data-anima="fade-bottom">
+                        <a class="img-box lightbox shadow row-9" href="">
+                            <img src="http://via.placeholder.com/800x600" alt="">
+                        </a>
+                        <hr class="space m" />
+                        <a class="img-box lightbox shadow row-8" href="">
+                            <img src="http://via.placeholder.com/800x600" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-2" data-anima="fade-bottom">
+                        <hr class="space m" />
+                        <a class="img-box lightbox shadow row-6" href="">
+                            <img src="http://via.placeholder.com/800x600" alt="">
+                        </a>
+                        <hr class="space m" />
+                        <a class="img-box lightbox shadow row-4" href="">
+                            <img src="http://via.placeholder.com/800x600" alt="">
+                        </a>
+                    </div>
+                </div>
+                <hr class="space l" />
+                <div class="text-center"><a href="#" class="btn btn-sm">Explore services</a></div>
+            </div>
+        </div>
+        <div id="contacts" class="section-empty background-lines-2">
+            <div class="container content">
+                <div class="row propo" data-anima="fade-bottom">
+                    <div class="col-md-4">
+                        <h2>Contacts</h2>
+                        <p>
+                            Lorem ipsum d oris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolore.
+                        </p>
+                        <hr class="space s" />
+                        <ul class="fa-ul " >
+                            <li><i class="fa-li im-marker"></i> Street Carbone 25/A, London, UK</li>
+                            <li><i class="fa-li im-phone"></i> (+05) 320-3256472</li>
+                            <li><i class="fa-li im-fax"></i> (+05) 320-3256475</li>
+                            <li><i class="fa-li im-envelope"></i> contacts@example.com</li>
+                        </ul> 
+                        <hr class="space m" />
+                        <hr class="space xs" />
+                        <a href="#" class="btn btn-sm">Write us now</a>
+                    </div>
+         
+                    <div class="col-md-6 boxed-inverse no-paddings pull-right">
+                        <div class="google-map row-16" data-address="London, UK" data-skin="" data-zoom="12" data-marker-pos-top="15"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    <footer class="footer-parallax bg-white">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="tag-row icon-row icon-row-square">
+                            <span><a>About</a></span>
+                            <span><a>Services</a></span>
+                            <span><a>Support</a></span>
+                            <span><a>Contacts</a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right text-center-sm">
+                        <div class="btn-group social-group btn-group-icons">
+                            <a target="_blank" href="#" data-social="share-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                <i class="fa fa-facebook text-s"></i>
+                            </a>
+                            <a target="_blank" href="#" data-social="share-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                <i class="fa fa-twitter text-s"></i>
+                            </a>
+                            <a target="_blank" href="#" data-social="share-google" data-toggle="tooltip" data-placement="top" title="Google+">
+                                <i class="fa fa-google-plus text-s"></i>
+                            </a>
+                            <a target="_blank" href="#" data-social="share-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+                                <i class="fa fa-linkedin text-s"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row copy-row">
+                    <div class="col-md-12 copy-text">
+                        © 2018 Structura - One page minimal template <span>Handmade by <a href="http://schiocco.com/">schiocco.com</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./HTWF/scripts/jquery.min.js"></script>
+        <script src="./HTWF/scripts/script.js"></script>
+        <link rel="stylesheet" href="../HTWF/scripts/iconsmind/line-icons.min.css">
+        <script src="./HTWF/scripts/bootstrap/js/bootstrap.min.js"></script>
+        <script src="./HTWF/scripts/imagesloaded.min.js"></script>
+        <script src="./HTWF/scripts/parallax.min.js"></script>
+        <script src="./HTWF/scripts/flexslider/jquery.flexslider-min.js"></script>
+        <script src="./HTWF/scripts/isotope.min.js"></script>
+        <script src="./HTWF/scripts/php/contact-form.js"></script>
+        <script src="./HTWF/scripts/jquery.progress-counter.js"></script>
+        <script src="./HTWF/scripts/jquery.tab-accordion.js"></script>
+        <script src="./HTWF/scripts/bootstrap/js/bootstrap.popover.min.js"></script>
+        <script src="./HTWF/scripts/jquery.magnific-popup.min.js"></script>
+        <script src="./HTWF/scripts/social.stream.min.js"></script>
+        <script src="./HTWF/scripts/google.maps.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="./HTWF/scripts/jquery.slimscroll.min.js"></script>
+        <script src="./HTWF/scripts/smooth.scroll.min.js"></script>
+    </footer>
+</body>
 </html>
