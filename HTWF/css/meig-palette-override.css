@@ -54,6 +54,22 @@ header a:not(.btn):not(.badge):hover, .header a:not(.btn):not(.badge):hover, .si
   box-shadow: 0 6px 18px rgba(44,62,80,.06);
 }
 
+.bg-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 1;
+  pointer-events: none;
+}
+.section-bg-image, .parallax-window {
+  position: relative;
+}
+.section-bg-image > .container,
+.parallax-window > .container {
+  position: relative;
+  z-index: 2;
+}
+
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce){
   *, *::before, *::after{ animation: none !important; transition: none !important; }
