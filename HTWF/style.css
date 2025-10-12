@@ -878,7 +878,7 @@ header .btn-default, header .btn, header .anima-button.circle-button, header .in
     }
 
 .navbar-default .navbar-nav > li > a, .mega-menu h5 {
-    color: #444;
+    color: white !important;
 }
 
 .nav > li.dropdown > a {
@@ -976,7 +976,6 @@ header .social-group a i.fa {
 header > .navbar {
     margin-bottom: 0;
     border: none;
-    border-bottom: 1px solid #E4E4E4;
     transform: translate3d(0px, 0px, 0px);
 }
 
@@ -5155,7 +5154,6 @@ div.content {
     }
 
 .section-empty, .footer-parallax-container.bg-color, .footer-parallax-container > .content {
-    background-color: #FFF;
     position: relative;
     z-index: 3;
     overflow: hidden;
@@ -5172,6 +5170,7 @@ div.content {
 }
 
 .section-bg-image {
+    background-image: url("./images/assets/bg-gradient.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

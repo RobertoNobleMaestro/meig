@@ -1,0 +1,60 @@
+/* ===== MEIG palette overrides (non-destructive) ===== */
+:root{
+  --color-dark-blue:#2C3E50;   /* headers / navbar / footer */
+  --color-light-blue:#3498DB;  /* primary: buttons, links, hovers */
+  --color-orange:#E67E22;      /* accents / secondary buttons */
+  --color-light-gray:#ECF0F1;  /* light backgrounds */
+  --color-dark-gray:#34495E;   /* main text */
+  --color-medium-gray:#7F8C8D; /* secondary text */
+}
+
+body{ color:var(--color-dark-gray); }
+a{ color:var(--color-light-blue); }
+a:hover, a:focus{ color:#217dbb; }
+
+.bg-dark-container{
+  background-color: var(--color-dark-blue) !important;
+}
+.bg-light-container{
+  background-color: var(--color-light-gray) !important;
+}
+/* Common components */
+.btn, .button, button, input[type="submit"], .submit {
+  background: var(--color-orange) !important;
+  border-color: var(--color-orange) !important;
+  color:#fff !important;
+}
+.btn-secondary, .btn-accent, .badge, .label-accent {
+  background: var(--color-orange) !important;
+  border-color: var(--color-orange) !important;
+  color:#fff !important;
+}
+/* Headers / nav / footer */
+header, .header, .site-header, nav.navbar, .navbar {
+  background-color: var(--color-dark-blue) !important;
+  color:#fff !important;
+  border:none !important;
+}
+header a:not(.btn):not(.badge):hover, .header a:not(.btn):not(.badge):hover, .site-header a:not(.btn):not(.badge):hover, nav.navbar a:not(.btn):not(.badge):hover, .navbar a:not(.btn):not(.badge):hover, header nav.navbar a:not(.btn):not(.badge):hover, .header nav.navbar a:not(.btn):not(.badge):hover {
+  color: var(--color-orange) !important;
+}
+#menu .active a{ color:#E67E22 !important; }
+
+/* Text utility remaps (if they exist in the theme) */
+.text-primary, .link-primary { color: var(--color-light-blue) !important; }
+.bg-primary { background-color: var(--color-light-blue) !important; }
+.text-secondary { color: var(--color-medium-gray) !important; }
+.text-dark { color: var(--color-dark-gray) !important; }
+.bg-light, .background-light { background-color: var(--color-light-gray) !important; }
+.text-muted { color: var(--color-medium-gray) !important; }
+
+/* Cards / blocks subtle elevation */
+.card, .box, .feature, .service, .panel, .tile{
+  border-radius: 10px; border:1px solid #e6e9ec;
+  box-shadow: 0 6px 18px rgba(44,62,80,.06);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after{ animation: none !important; transition: none !important; }
+}

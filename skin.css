@@ -358,7 +358,7 @@ CUSTOM CLASSES
     left: 0;
     right: 0;
     height: 100%;
-    background: url(images/dot.png) 0 0 repeat;
+    background: url(./htwf/images/dot.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -367,15 +367,15 @@ CUSTOM CLASSES
 }
 
 .background-lines {
-    background: url(images/lines.png) center center repeat;
+    background: url(./htwf/images/lines.png) center center repeat;
 }
 
 .background-lines-2 {
-    background: url(images/lines-2.png) center center repeat;
+    background: url(./htwf/images/lines-2.png) center center repeat;
 }
 
 .background-lines-3 {
-    background: url(images/lines-3.png) center center repeat;
+    background: url(./htwf/images/lines-3.png) center center repeat;
 }
 
 .background-lines-2 .section-empty:not(.bg-transparent) {
@@ -923,7 +923,7 @@ header.side-menu-lateral .mi-menu .sidebar-nav ul ul a, .mi-menu .sidebar-nav li
         width: 0%;
         right: 0;
         left: 0;
-        background: #272727;
+        background: #E67E22;
         transition: width .3s;
         z-index: 9;
     }
@@ -2143,9 +2143,9 @@ hr {
 CONTAINERS
 -------------------------------------------------------------------
 */
-.section-empty, .section-bg-image, .footer-base {
+/* .section-empty, .section-bg-image, .footer-base {
     border-top: 1px solid #dadada;
-}
+} */
 
 .grid-box > .grid-item, .maso-box > .maso-item {
     padding: 30px;
