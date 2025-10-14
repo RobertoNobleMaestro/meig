@@ -2574,10 +2574,12 @@ RESPONSIVE
 
     header .navbar-default .navbar-collapse {
         padding: 15px;
+        padding-top: 0px !important;
     }
 
     button.navbar-toggle {
         margin-top: 20px;
+        background-color: none !important;
     }
 
     .navbar-nav > li > a {

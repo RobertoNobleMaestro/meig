@@ -6317,7 +6317,7 @@ MENU - RESPONSIVE
 ------------------------------
 */
     .navbar-header {
-        background-color: #FFF;
+        background-color: var(--color-dark-blue) !important;
     }
 
     .bg-transparent .navbar-header {
@@ -6887,7 +6887,9 @@ TITLE - RESPONSIVE
         width: 20%;
         float: left;
     }
-
+    .box-steps .step-item {
+        padding: 25px 50px;
+    }
     /*
 ------------------------------
 COMPONENTS - RESPONSIVE

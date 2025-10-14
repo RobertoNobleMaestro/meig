@@ -420,7 +420,7 @@ body .flex-direction-nav a.flex-next:before {
     }
 
 .flexslider.visible-dir-nav a.flex-next {
-    right: 10px;
+    right: -50px !important;
     opacity: 1;
 }
 

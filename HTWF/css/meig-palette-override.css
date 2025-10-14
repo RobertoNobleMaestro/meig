@@ -18,8 +18,12 @@ a:hover, a:focus{ color:#217dbb; }
 .bg-light-container{
   background-color: var(--color-light-gray) !important;
 }
+.bg-medium-container{
+  background-color: var(--color-medium-gray) !important;
+  color: #fff !important;
+}
 /* Common components */
-.btn, .button, button, input[type="submit"], .submit {
+.btn, .button, input[type="submit"], .submit {
   background: var(--color-orange) !important;
   border-color: var(--color-orange) !important;
   color:#fff !important;
@@ -40,6 +44,26 @@ header a:not(.btn):not(.badge):hover, .header a:not(.btn):not(.badge):hover, .si
 }
 #menu .active a{ color:#E67E22 !important; }
 
+/* Sobrescribir estilos específicos de Bootstrap para navbar-toggle */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent !important;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: transparent !important;
+  border-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle i {
+  color: #fff !important;
+}
+
+.navbar-default .navbar-toggle:hover i,
+.navbar-default .navbar-toggle:focus i {
+  color: var(--color-orange) !important;
+}
+
 /* Text utility remaps (if they exist in the theme) */
 .text-primary, .link-primary { color: var(--color-light-blue) !important; }
 .bg-primary { background-color: var(--color-light-blue) !important; }
@@ -48,6 +72,9 @@ header a:not(.btn):not(.badge):hover, .header a:not(.btn):not(.badge):hover, .si
 .bg-light, .background-light { background-color: var(--color-light-gray) !important; }
 .text-muted { color: var(--color-medium-gray) !important; }
 
+.title-orange {
+  color: var(--color-orange) !important;
+}
 /* Cards / blocks subtle elevation */
 .card, .box, .feature, .service, .panel, .tile{
   border-radius: 10px; border:1px solid #e6e9ec;
