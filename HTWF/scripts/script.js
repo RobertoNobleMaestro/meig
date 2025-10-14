@@ -1237,12 +1237,13 @@ function isScrollView(t) {
             $(scroll_2).addClass("scroll-css");
             $(scroll_3).addClass('showed');
             $(scroll_4).removeClass("bg-transparent");
-            $(scroll_5).css("opacity", 1);
+            $(scroll_5).css("opacity", 0.8);
             if (device_screen_size == "device-xs") $(scroll_6).removeClass('hidden');
             $(scroll_8).hide().show(0);
-            if (scroll + hh > (dh - hh)) {
-                $(scroll_7).css("opacity", 1);
-            } else $(scroll_7).css("opacity", 0);
+            // Footer siempre visible - comentado el control dinámico de opacidad
+            // if (scroll + hh > (dh - hh)) {
+            //     $(scroll_7).css("opacity", 1);
+            // } else $(scroll_7).css("opacity", 0);
         }
         if (scroll < 100) {
             go = true;
@@ -1250,7 +1251,7 @@ function isScrollView(t) {
             if (!scroll_len) $(scroll_2).removeClass("scroll-css");
             $(scroll_3).removeClass('showed');
             $(scroll_4).addClass("bg-transparent");
-            $(scroll_5).css("opacity", 0);
+            $(scroll_5).css("opacity", 0.3);
             $(scroll_8).hide().show(0);
         }
 

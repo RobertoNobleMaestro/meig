@@ -2677,14 +2677,9 @@ footer.footer-center .content {
 }
 
 .footer-parallax {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -121;
-    height: 320px;
+    width: 100%;
     padding-top: 20px;
-    opacity: 0;
+    opacity: 1;
 }
 
     .footer-parallax .container {
@@ -2696,7 +2691,6 @@ footer.footer-center .content {
     position: relative;
     z-index: 1;
     box-shadow: 0 0 30px -5px rgba(58,58,58,0.72);
-    margin-bottom: 290px;
 }
 
 .overlay-content .footer-parallax {
