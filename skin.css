@@ -358,7 +358,7 @@ CUSTOM CLASSES
     left: 0;
     right: 0;
     height: 100%;
-    background: url(./htwf/images/dot.png) 0 0 repeat;
+    background: url(./HTWF/images/dot.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -367,15 +367,15 @@ CUSTOM CLASSES
 }
 
 .background-lines {
-    background: url(./htwf/images/lines.png) center center repeat;
+    background: url(./HTWF/images/lines.png) center center repeat;
 }
 
 .background-lines-2 {
-    background: url(./htwf/images/lines-2.png) center center repeat;
+    background: url(./HTWF/images/lines-2.png) center center repeat;
 }
 
 .background-lines-3 {
-    background: url(./htwf/images/lines-3.png) center center repeat;
+    background: url(./HTWF/images/lines-3.png) center center repeat;
 }
 
 .background-lines-2 .section-empty:not(.bg-transparent) {
