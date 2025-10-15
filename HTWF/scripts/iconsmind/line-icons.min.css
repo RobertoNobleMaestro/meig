@@ -44,7 +44,6 @@ Automatic conversion from Font Awesome to Icons Mind
 }
 
 .block-quote.quote-1:before, .block-quote.quote-2:before {
-    content: "\201c";
     font-size: 140px;
     line-height: 57px;
 }

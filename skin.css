@@ -2547,6 +2547,9 @@ RESPONSIVE
 */
 
 @media (max-width: 1024px) {
+    .background-lines-2{
+        background-image: none;
+    }
     .flexslider {
         overflow: hidden;
     }

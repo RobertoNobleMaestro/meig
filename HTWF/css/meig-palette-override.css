@@ -2,17 +2,20 @@
 :root{
   --color-dark-blue:#2C3E50;   /* headers / navbar / footer */
   --color-light-blue:#3498DB;  /* primary: buttons, links, hovers */
-  --color-orange:#E67E22;      /* accents / secondary buttons */
+  --color-orange:#192065;      /* accents / secondary buttons */
   --color-light-gray:#ECF0F1;  /* light backgrounds */
   --color-dark-gray:#34495E;   /* main text */
   --color-medium-gray:#7F8C8D; /* secondary text */
+  --color-orange-2: #E67E22;
 }
-
 body{ color:var(--color-dark-gray); }
 a{ color:var(--color-light-blue); }
 a:hover, a:focus{ color:#217dbb; }
 .advs-box-top-icon .icon{
-  color: var(--color-orange) !important;
+  color: var(--color-orange-2) !important;
+}
+.icon-box-cell i{
+  color: var(--color-orange-2) !important;
 }
 .bg-dark-container{
   background-color: var(--color-dark-blue) !important;
