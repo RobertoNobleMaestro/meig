@@ -48,7 +48,7 @@ h1, h2, h3, h4, .nav.inner li a, footer .tag-row a, .nav-tabs > li.active > a, .
     color: #272727;
 }
 
-.nav.inner:not(.ms-rounded) li a, .advs-box-top-icon .icon, header .side-menu li a, .pagination > li > a, .advs-box-multiple.boxed div.circle i {
+.nav.inner:not(.ms-rounded) li a, header .side-menu li a, .pagination > li > a, .advs-box-multiple.boxed div.circle i {
     color: #272727 !important;
 }
 
@@ -1682,6 +1682,7 @@ body div .adv-img-button-content .caption i {
 
 .advs-box-top-icon {
     margin-top: 0 !important;
+    color: var(--color-orange) !important;
     padding-top: 0 !important;
 }
 
