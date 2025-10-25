@@ -361,22 +361,54 @@
                     data-options="minWidth:200,itemMargin:30,numItems:5,controlNav:false,directionNav:true">
                     <ul class="slides">
                         <li>
-                            <img alt="logo" src="../images/logos/logo_1b.png" />
+                            <a href="https://bartec.com/" target="_blank">
+                                <img alt="Bartec" src="HTWF/images/bartec.png" />
+                            </a>
                         </li>
                         <li>
-                            <img alt="logo" src="../images/logos/logo_2b.png" />
+                            <a href="https://www.beckhoff.com/es-es/" target="_blank">
+                                <img alt="Beckhoff" src="HTWF/images/beckhoff.jpg" />
+                            </a>
                         </li>
                         <li>
-                            <img alt="logo" src="../images/logos/logo_3b.png" />
+                            <a href="https://www.beka.co.uk/" target="_blank">
+                                <img alt="Beka" src="HTWF/images/beka.png" />
+                            </a>
                         </li>
                         <li>
-                            <img alt="logo" src="../images/logos/logo_4b.png" />
+                            <a href="https://www.datalogic.com/esp/index.html" target="_blank">
+                                <img alt="Datalogic" src="HTWF/images/datalogic.png" />
+                            </a>
                         </li>
                         <li>
-                            <img alt="logo" src="../images/logos/logo_5b.png" />
+                            <a href="https://www.esa-automation.com/es/" target="_blank">
+                                <img alt="ESA Automation" src="HTWF/images/esa_automation.jpg" />
+                            </a>
                         </li>
                         <li>
-                            <img alt="logo" src="../images/logos/logo_1b.png" />
+                            <a href="https://www.es.endress.com/es" target="_blank">
+                                <img alt="Endress + Hauser" src="HTWF/images/endress_hauser.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.euchner.de/es-es/" target="_blank">
+                                <img alt="Euchner" src="HTWF/images/euchner.svg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.keb-automation.com/" target="_blank">
+                                <img alt="KEB" src="HTWF/images/keb.svg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pepperl-fuchs.com/es-es" target="_blank">
+                                <img alt="Pepperl + Fuchs" src="HTWF/images/pf_logoblack.svg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.zebra.com/es/es.html" target="_blank">
+                                <img alt="Zebra" src="HTWF/images/zebra.svg" />
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -472,7 +504,11 @@
                 </div>
                 <div class="row copy-row">
                     <div class="col-md-12 copy-text">
-                        <span>Handmade by <strong>Beto</strong></span>
+                        <div style="margin-bottom: 10px;">
+                            <a href="aviso-legal.html" style="margin: 0 15px; color: var(--color-dark-gray);">Aviso Legal</a> |
+                            <a href="politica-privacidad.html" style="margin: 0 15px; color: var(--color-dark-gray);">Política de Privacidad</a>
+                        </div>
+                        <span>&copy; 2025 MEIG - Materiales Electrónicos Industriales Gavá, S.L.</span>
                     </div>
                 </div>
             </div>
@@ -492,6 +528,8 @@
         <script src="./HTWF/scripts/jquery.magnific-popup.min.js"></script>
         <script src="./HTWF/scripts/social.stream.min.js"></script>
         <script src="./HTWF/scripts/jquery.slimscroll.min.js"></script>
+        <script src="./HTWF/scripts/cookies.js"></script>
+
         <!-- Reemplazamos smooth.scroll.min.js con una versión que no cause errores -->
         <script>
         // Smooth scroll simple sin preventDefault problemático
@@ -514,6 +552,27 @@
         <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
         <script src="./HTWF/scripts/form.js"></script>
     </footer>
+    <div id="cookieConsentModal" class="cookie-consent-container">
+        <div class="cookie-consent-content">
+            <div class="cookie-consent-header">
+                <i class="fa fa-cookie-bite"></i>
+                <h4>Política de Cookies</h4>
+            </div>
+            <p class="cookie-consent-text">
+                Utilizamos cookies para mejorar su experiencia en nuestro sitio web. Al continuar navegando, acepta nuestro uso de cookies. Para más información consulte nuestra
+                <a href="politica-privacidad.html" target="_blank" style="color: var(--color-orange); text-decoration: underline;">Política de Privacidad</a> y
+                <a href="aviso-legal.html" target="_blank" style="color: var(--color-orange); text-decoration: underline;">Aviso Legal</a>.
+            </p>
+            <div class="cookie-consent-buttons">
+                <button id="acceptCookies" class="btn btn-primary cookie-btn-accept">
+                    Aceptar
+                </button>
+                <button id="rejectCookies" class="btn btn-secondary cookie-btn-reject">
+                    Rechazar
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
